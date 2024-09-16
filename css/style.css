@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 360px;
+    background-color: black ;
+    
+}
+.header__logo{
+    width: 79px;
+    height: 16px;
+    margin: 24px 0 0 20px;
+}
+.header__menu{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 20px 0 0;
+}
+.header__menu-list{
+    list-style: none;
+}
+.header__menu-list a:hover{
+    text-decoration: underline;
+}
+.time{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 136px;
+}
+.cover__title{
+    height: 228px;
+    background-image: url("../img/cover.svg");
+    background-repeat: no-repeat;    
+}
+h1{
+    font-size: 72px;
+    margin: 0px 20px 0px 20px;
+    color: #F5F5F5;
+}
+.accent-span{
+    display: flex;
+}
+
+.text-center{
+    display:flex ;
+    justify-content: center;
+}
+.text-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.intro__heading{
+    margin: 30px 0 24px 0;
+    display: flex;
+    justify-content: space-between;
+    color: #CCCCCC;
+}
+.intro{
+    margin: 0 20px 0px 20px ;
+    
+}
+.intro__main-text p{
+    color: #F5F5F5;
+    margin: 0 0 24px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.how-to{
+    color: black; 
+}
+.card_theme_bright{
+    background-color: #FEE42A;
+    padding: 0 20px 20px 20px;
+}
+.content-section__list li{
+    margin: 0 0 16px 0;
+}
+.content-section__subtitle{
+    padding: 40px 0 0 0;
+}
+.center-side{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    text-align: right;
+}
+article{
+    color: #F5F5F5;
+}
+.card_list{
+    list-style: none;
+}
+.card_theme_dark{
+    padding: 0 20px 20px 20px;
+}
+.card{
+    display: flex;
+    max-width: 319px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 30px;
+    background: var(--gray-bg, #343434);
+    margin: 32px 0 32px 0;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+
+}
+.card_text-only{
+    color: black;
+    display: flex;
+    max-width: 319px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 8px;
+    border-radius: 30px;
+    background: var(--yellow-bg, #FEE42A)
+}
+.card__author-name{
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0 0 0 0;
+}
+.card__title{
+    font-family: "EB Garamond";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0 0 0 0;
+}
+.card__text{
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0 0 0 0;
+}
+a{
+    text-decoration: none;
+    color: #F5F5F5;
+}
+.footer_logo{
+    width: 79px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.footer_link a{
+    padding: 0 0 0 16px;
+}
